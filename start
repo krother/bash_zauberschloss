@@ -26,10 +26,10 @@ git checkout .
 
 # prepare items
 chmod a-r zauberturm/steinernes_tor/keller/metallkiste
-chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor
 chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/truhe
-chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum
 chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum/kristalltafel
 chmod a+r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum/magischer_kristall
+chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum
+chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor
 
 cd zauberturm
