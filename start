@@ -20,11 +20,11 @@ echo ""
 echo "  Viel Glück!"
 echo ""
 
-git checkout .
 chmod -R a+x *
 chmod -R a+x *
 chmod a+x zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum
 chmod -R a+r *
+git checkout .
 
 # prepare items
 chmod a-r zauberturm/steinernes_tor/keller/metallkiste
