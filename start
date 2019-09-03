@@ -26,7 +26,7 @@ chmod -R a+r *
 
 # prepare items
 chmod a-r zauberturm/steinernes_tor/keller/metallkiste
-chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/truhe
+chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/*truhe
 chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum/kristalltafel
 chmod a+r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum/magischer_kristall
 chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum
