@@ -22,6 +22,7 @@ echo ""
 
 git checkout .
 chmod -R a+x *
+chmod -R a+x *
 chmod -R a+r *
 
 # prepare items
