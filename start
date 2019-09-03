@@ -1,0 +1,35 @@
+echo "  ***************************************"
+echo "  *                                     *"
+echo "  *  D I E   Z A U B E R P R Ü F U N G  *"
+echo "  *                                     *"
+echo "  ***************************************"
+echo ""
+echo "  Nach Deiner Lehrzeit steht Dir Deine erste Zauberprüfung bevor."
+echo "  Aktiviere den magischen Kristall, der im Turm versteckt ist."
+echo ""
+echo "  Deine Suche beginnt vor dem Eingang des Turms."
+echo "  Vor Dir liegt eine kleine Schriftrolle."
+echo "  Du kannst sie mit einem Zauber untersuchen."
+echo "  Gib ein:"
+echo " "
+echo "      cat kleine_schriftrolle"
+echo ""
+echo "  Du kannst alle Gegenstände, die Du unterwegs findest"
+echo "  ebenfalls mit cat und ihrem Namen untersuchen."
+echo ""
+echo "  Viel Glück!"
+echo ""
+
+chmod -R a+r *
+chmod -R a+x *
+git checkout .
+
+# prepare items
+chmod a-r zauberturm/steinernes_tor/keller/metallkiste
+chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor
+chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/truhe
+chmod a-x zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum
+chmod a-r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum/kristalltafel
+chmod a+r zauberturm/steinernes_tor/lange_treppe/eisernes_tor/.magischer_spiegel/kristallraum/magischer_kristall
+
+cd zauberturm

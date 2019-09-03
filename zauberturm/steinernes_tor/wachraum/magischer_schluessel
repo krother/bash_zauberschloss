@@ -1,0 +1,16 @@
+
+  ooo,    .---.
+ o`  o   /    |\________________
+o`   'oooo()  | ________   _   _)
+`oo   o` \    |/        | | | |
+  `ooo'   `---'         "-" |_|
+                                hjw
+
+Du findest einen magischen Schlüssel.
+Dieser kann Truhen und Kisten öffnen.
+
+Benutzte ihn, indem Du bei einer Truhe eingibst:
+
+    chmod a+r NAME_DER_TRUHE
+
+ 
