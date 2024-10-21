@@ -46,7 +46,7 @@ Du benötigst ein Unix-Terminal, um das Spiel durchzuführen.
     wget https://github.com/krother/bash_zauberschloss/archive/refs/heads/main.zip
     unzip main.zip
     cd bash-zauberschloss-main
-    ./start
+    . start
 
 ## Inhalte
 
