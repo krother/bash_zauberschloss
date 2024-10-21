@@ -43,9 +43,9 @@ Ein paar Jahre später hat eines der Kinder (5. Klasse) es alleine in unter 1 St
 Du benötigst ein Unix-Terminal, um das Spiel durchzuführen.
 Öffne das Terminal und gib ein:
 
-    wget https://github.com/krother/bash_zauberschloss/archive/refs/heads/master.zip
-    unzip master.zip
-    cd bash-zauberschloss-master
+    wget https://github.com/krother/bash_zauberschloss/archive/refs/heads/main.zip
+    unzip main.zip
+    cd bash-zauberschloss-main
     ./start
 
 ## Inhalte
